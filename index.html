@@ -1,0 +1,1171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foodies - We Serve The Taste You Love</title>
+    <meta
+      name="description"
+      content="Foodies - The best restaurant in your town. Order online, book a table, and get fast food delivery while it's still hot."
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css?v=11" />
+  </head>
+  <body>
+    <!-- ===================== TOP BAR ===================== -->
+    <div class="top-bar">
+      <div class="container-xl">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex gap-3 align-items-center top-bar-info">
+            <span><i style="margin-right:5px;" class="bi bi-envelope-fill"></i> foodies@gmail.com</span>
+            <span class="top-divider d-none d-md-inline">|</span>
+            <span class="d-none d-md-inline"
+              ><i style="margin-right:5px;" class="bi bi-clock-fill d-none d-md-inline"></i>  Open: 10:00 am Close: 11:00 pm</span
+            >
+          </div>
+          <div class="d-flex gap-3 top-bar-social">
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" aria-label="Instagram"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="#" aria-label="Behance"><i class="bi bi-behance"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ===================== HEADER ===================== -->
+    <header class="site-header" id="top">
+      <div class="container-xl">
+        <div
+          class="d-flex justify-content-between align-items-center py-3 gap-3"
+        >
+          <!-- Logo -->
+          <a href="#" class="logo-text">Foodies</a>
+
+          <!-- Search Bar -->
+          <!-- <div class="search-wrap d-none d-md-flex">
+            <input
+              type="text"
+              id="searchInput"
+              placeholder="Search Foods...."
+              class="search-input"
+            />
+            <button class="search-btn" id="searchBtn">
+              <i class="bi bi-search"></i>
+              Search</button>
+          </div> -->
+
+          <div  class="search-wrap d-none d-md-flex" >
+            <div class="slanted-input-wrap">
+              <input type="text" placeholder="Search Food's..."  />
+            </div>
+            <button class="search-btn ms-4" id="searchBtn">
+              <i class="bi bi-search"></i>
+              Search</button>
+          </div>
+
+
+          <!-- Icons + Delivery -->
+          <div class="d-flex align-items-center gap-3">
+            <div class="header-icons d-flex gap-2">
+              <div class="icon-box position-relative">
+                <i class="bi bi-bag"></i>
+                <span class="badge-count">9</span>
+              </div>
+              <div class="icon-box">
+                <i class="bi bi-heart"></i>
+              </div>
+              <div class="icon-box">
+                <i class="bi bi-person"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ===================== NAVBAR ===================== -->
+    <nav class="main-nav" id="mainNav">
+      <div class="container-xl mobile_cunt">
+        <div
+          class="nav-inner d-flex justify-content-between align-items-center"
+        >
+          <button
+            class="nav-toggler d-lg-none"
+            id="navToggle"
+            aria-label="Toggle menu"
+          >
+            <i class="bi bi-list"></i>
+          </button>
+          <div class="nav-links"  id="navLinks">
+            <a href="#hero" class="nav-link-item active" id="navHome">Home</a>
+            <a href="#popular" class="nav-link-item">Todays Special</a>
+            <a href="#allFoods" class="nav-link-item">Menu</a>
+            <a href="#about" class="nav-link-item">About Us</a>
+            <a href="#delivery" class="nav-link-item">Services</a>
+            <a href="#testimonials" class="nav-link-item">Gallery</a>
+            <a href="#allFoods" class="nav-link-item">Popular Menu</a>
+          </div>
+        </div>
+      </div>
+            <div class="desktops-view d-flex justify-content-center" style="
+            box-shadow:
+              rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+              rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;">
+          <div class="d-flex gap-4 p-2 anchor" style="margin-top:18px; margin-right: 150px;">
+            <a href="#hero">Home</a>
+            <a href="#popular">Todays Special</a>
+            <a href="#allFoods">Menu</a>
+            <a href="#about">About Us</a>
+            <a href="#delivery">Services</a>
+            <a href="#testimonials">Gallery</a>
+            <a href="#allFoods">Popular Menu</a>
+          </div>
+          <div style="margin-top:10px;">
+            <img src="./46379.jpg" alt="" style="height: 50px; width: 60px; float: left" class="pe-3">
+            <p class="d-inline-block">Get Free Delivery<br>+91 9800 9800</p>
+          </div>
+        </div>
+    </nav>
+
+    <!-- ===================== HERO SECTION ===================== -->
+    <section class="hero-section" id="hero">
+      <div class="container-xl h-100">
+        <div class="row align-items-center hero-row">
+          <!-- Left Content -->
+          <div class="col-lg-6 hero-content" data-aos="fade-right">
+            <div class="offer-badge d-inline-flex">
+              <span class="offer-dark">20% Off</span>
+              <span class="offer-light">On your Online 1st Order</span>
+            </div>
+            <p class="now-taking mt-3 mb-1">
+              Bow taking
+              online orders
+            </p>
+            <h1 class="hero-headline">
+              We Serve <span class="text-red">The Taste</span><br />You Love
+            </h1>
+            <p class="hero-desc">
+              Fresh ingredients, bold flavours and your favourite comfort food
+              prepared to order and delivered with care.
+            </p>
+            <div class="hero-buttons d-flex gap-1 flex-wrap mt-4">
+              <a href="#allFoods" class="btn-primary-red">Explore Menu</a>
+              <a href="#book-table" class="btn-dark-outline">Book A Table</a>
+            </div>
+          </div>
+
+          <!-- Right Image -->
+          <div class="col-lg-6 hero-image-col position-relative">
+            <!-- Right side thumb strip -->
+            
+
+            <div class="hero-img-wrapper">
+              <img
+                id="imgcont"
+                class=""
+                src="./food images/1.png"
+                alt="Featured Food"
+                
+              />
+            </div>
+            <!--hero-food-img-->
+            <!-- Slider arrows -->
+            <div class="hero-arrows d-flex gap-2 justify-content-center mt-3">
+              <button
+                class="arrow-btn arrow-dark"
+                id="leftArrow"
+                aria-label="Previous"
+              >
+                <i class="bi bi-chevron-left"></i>
+              </button>
+              <button
+                class="arrow-btn arrow-red"
+                id="rightArrow"
+                aria-label="Next"
+              >
+                <i class="bi bi-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== BOOK A TABLE ===================== -->
+    <section class="book-table-section py-5" id="book-table" style="margin-top: 80px;">
+      <div class="container-xl">
+        <div class="book-table-card">
+          <div class="d-flex flex-wrap  align-items-end justify-content-center gap-1 gap-md-5">
+            <div class="book-field d-flex flex-row">
+             <p style="margin: bottom 14px;/* margin-top: 10px; */position: relative;top: 3.5px;" class="mt-2">BOOK At Table</p>
+            </div>
+           
+            <div class="book-field d-flex flex-row">
+              <label style="margin-top: 12px; margin-right:10px;">Date</label>
+               <div class="d-flex p-2" style="border:2px solid rgb(83, 178, 135); width:100px; border-radius:15px;">
+                <!-- <input type="date" class="book-input" id="bookDate" /> -->
+                <input type="text" style="width: 70px; outline: none; border: none;" placeholder="Date">
+                <i class="bi bi-calendar" style="color:rgb(83, 178, 135)"></i>
+               </div>
+            </div>
+            <div class="book-field d-flex flex-row">
+              <label style="margin-top: 12px; margin-right:10px;">Time</label>
+              <div class="d-flex p-2" style="border:2px solid rgb(83, 178, 135); width:100px; border-radius:15px;">
+                <input type="text" style="width: 70px; outline: none; border: none;" placeholder="Time">
+                <i class="bi bi-arrow-left-circle" style="color:rgb(83, 178, 135)"></i>
+               </div>
+            </div>
+            <div class="book-field d-flex flex-row">
+              <label style="margin-top: 12px; margin-right:10px;">Guests</label>
+              <div class="d-flex p-2" style="border:2px solid rgb(83, 178, 135); width:100px; border-radius:15px;">
+                <input type="text" style="width: 70px; outline: none; border: none;" placeholder="Person">
+                <i class="bi bi-arrow-down-circle" style="color:rgb(83, 178, 135)"></i>
+               </div>
+            </div>
+            <button class="search-btn" id="searchBtn">Book A Table</button>
+          </div>
+        </div>
+              </div>
+    </section>
+
+    <!-- ===================== POPULAR ITEMS ===================== -->
+    <section class="popular-section py-5 mt-4" id="popular">
+      <div class="container-xl">
+        <div class="section-header text-center mb-5">
+          <p class="section-tag">Want To Eat</p>
+          <h2 class="section-title">Our Popular Items</h2>
+          <p class="section-sub">
+            Hand-picked favourites made with fresh ingredients, balanced
+            flavours and a little extra love.
+          </p>
+        </div>
+        <div class="row py-5 gap-4">
+          <!-- Card 1 -->
+          <div class="col text-align-center" style="border: 2px solid rgb(83, 178, 135); border-radius: 15px; height:360px; width:200px;">
+          
+            <img src="./food images/1.png" alt="" style="border-radius:50%; height: 200px; width:200px; position: relative;  top:-60px;">
+            <center>
+              <div style="position:relative; top:-55px;">
+              <bold><h1 style="color:black">Hot Chicken</h1></bold>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="stars">★★★★★</div>
+              <button class="slanted-btn mt-3" style="position: relative;top: -20px;">
+                <span class="btn-content">
+                  <span class="text" style="margin-right: 15px;">Add To Cart</span>
+                  <span class="price">$9.00</span>
+                </span>
+              </button>
+              </div>
+              
+            </center>
+          </div>
+
+          <div class="col text-align-center" style="border: 2px solid rgb(83, 178, 135); border-radius: 15px; height:360px; width:200px;">
+          
+            <img src="./food images/1.png" alt="" style="border-radius:50%; height: 200px; width:200px; position: relative;  top:-60px;">
+            <center>
+              <div style="position:relative; top:-55px;">
+              <bold><h1 style="color:black">Hot Chicken</h1></bold>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="stars">★★★★★</div>
+              <button class="slanted-btn mt-3" style="position: relative;top: -20px;">
+                <span class="btn-content">
+                  <span class="text" style="margin-right: 15px;">Add To Cart</span>
+                  <span class="price">$9.00</span>
+                </span>
+              </button>
+              </div>
+              
+            </center>
+          </div>
+
+          <div class="col text-align-center" style="border: 2px solid rgb(83, 178, 135); border-radius: 15px; height:360px; width:200px;">
+          
+            <img src="./food images/1.png" alt="" style="border-radius:50%; height: 200px; width:200px; position: relative;  top:-60px;">
+            <center>
+              <div style="position:relative; top:-55px;">
+              <bold><h1 style="color:black">Hot Chicken</h1></bold>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="stars">★★★★★</div>
+              <button class="slanted-btn mt-3" style="position: relative;top: -20px;">
+                <span class="btn-content">
+                  <span class="text" style="margin-right: 15px;">Add To Cart</span>
+                  <span class="price">$9.00</span>
+                </span>
+              </button>
+              </div>
+              
+            </center>
+          </div>
+
+          <div class="col text-align-center" style="border: 2px solid rgb(83, 178, 135); border-radius: 15px; height:360px; width:200px;">
+          
+            <img src="./food images/1.png" alt="" style="border-radius:50%; height: 200px; width:200px; position: relative;  top:-60px;">
+            <center>
+              <div style="position:relative; top:-55px;">
+              <bold><h1 style="color:black">Hot Chicken</h1></bold>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="stars">★★★★★</div>
+              <button class="slanted-btn mt-3" style="position: relative;top: -20px;">
+                <span class="btn-content">
+                  <span class="text" style="margin-right: 15px;">Add To Cart</span>
+                  <span class="price">$9.00</span>
+                </span>
+              </button>
+              </div>
+              
+            </center>
+          </div>
+
+
+
+        <!-- Section Arrows -->
+        <div class="section-arrows d-flex gap-2 justify-content-center mt-5">
+          <button class="arrow-btn arrow-dark" aria-label="Previous">
+            <i class="bi bi-chevron-left"></i>
+          </button>
+          <button class="arrow-btn arrow-red" aria-label="Next">
+            <i class="bi bi-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT / SERVICES ===================== -->
+    <section class="about-section py-5 mt-4" id="about">
+      <div class="container-xl">
+        <div class="row align-items-center g-5">
+          <!-- Left Image -->
+          <div class="col-lg-6">
+            <div class="">
+              <div class=""></div>
+              <img
+                src="./food images/1.png"
+                alt="About Us"
+                class="about-main-img"
+              />
+            </div>
+          </div>
+          <!-- Right Content -->
+          <div class="col-lg-6">
+            <p class="section-tag">About us</p>
+            <h2 class="section-title mb-3">
+              We Are More Than<br /><span class="text-red"
+                >Multiple Services</span
+              >
+            </h2>
+            <p class="text-muted mb-4">
+              From a spotless kitchen to quick online ordering, every detail is
+              designed to make your meal feel easy, fresh and memorable.
+            </p>
+            <div class="services-grid">
+              <div class="service-item">
+                <div class="service-icon-wrap" style="border-radius: 50px;">
+                  <i class="bi bi-award-fill" ></i>
+                </div>
+                <span>Clean Kitchen</span>
+              </div>
+              <div class="service-item">
+                <div class="service-icon-wrap" style="border-radius: 50px;">
+                  <i class="bi bi-clock-fill"></i>
+                </div>
+                <span>24/7 Service</span>
+              </div>
+              <div class="service-item">
+                <div class="service-icon-wrap" style="border-radius: 50px;">
+                  <i class="bi bi-laptop-fill"></i>
+                </div>
+                <span>Online Order</span>
+              </div>
+              <div class="service-item">
+                <div class="service-icon-wrap" style="border-radius: 50px;">
+                  <i class="bi bi-calendar-check-fill"></i>
+                </div>
+                <span>Free Reservation</span>
+              </div>
+              <div class="service-item">
+                <div class="service-icon-wrap" style="border-radius: 50px;">
+                  <i class="bi bi-clipboard2-check-fill"></i>
+                </div>
+                <span>Organized Plans</span>
+              </div>
+              <div class="service-item">
+                <div class="service-icon-wrap" style="border-radius: 50px;">
+                  <i class="bi bi-person-badge-fill"></i>
+                </div>
+                <span>Super Chef</span>
+              </div>
+            </div>
+            <a href="#" class="btn-primary-red mt-4 d-inline-block"
+              >Watch Our Story
+              <i class="bi bi-play-circle ps-2"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 mt-4" id="delivery">
+      <div class="food-cat d-flex justify-content-evenly p-4">
+        <div class="left d-flex flex-column">
+          <a href="#" class="foot-cat-btn btn-primary-red mt-4 d-inline-block" data-category="coffee" data-image="./food images/coffee.png" data-title="Get Delivered While It's Still Hot" data-description="Fresh coffee and delicious meals delivered quickly while they are still warm.">
+            <i class="bi bi-play-circle"></i>
+            coffee
+          </a>
+
+          <a href="#" class="foot-cat-btn btn-primary-red mt-4 d-inline-block" data-category="fast-food" data-image="./food images/1.png" data-title="Fast Food Delivered Fast" data-description="Enjoy crispy, tasty fast food prepared fresh and delivered straight to your door.">
+            <i class="bi bi-play-circle"></i>
+            fast food
+          </a>
+
+          <a href="#" class="foot-cat-btn btn-primary-red mt-4 d-inline-block" data-category="pizza" data-image="./food images/3.png" data-title="Hot Pizza at Your Door" data-description="Freshly baked pizza with rich toppings, melted cheese, and plenty of flavour.">
+            <i class="bi bi-play-circle"></i>
+            pizza
+          </a>
+
+          <a href="#" class="foot-cat-btn btn-primary-red mt-4 d-inline-block" data-category="ramen" data-image="./food images/2.png" data-title="Warm Ramen Delivered" data-description="Comforting ramen made with bold flavours and delivered hot to your home.">
+            <i class="bi bi-play-circle"></i>
+            Ramen
+          </a>
+
+          <a href="#" class="foot-cat-btn btn-primary-red mt-4 d-inline-block" data-category="desserts" data-image="./food images/coffee.png" data-title="Sweet Desserts Delivered" data-description="Finish your meal with a delicious dessert made for a perfectly sweet moment.">
+            <i class="bi bi-play-circle"></i>
+            Desserts
+          </a>
+        </div>
+        
+        <div class="right">
+          <div class="food-cat-right-cont p-5 container gap-5 ">
+            <div class="food-cat-right-text d-flex ">
+              <div class="container-cover  d-flex flex-wrap">
+              <p class="">Fast Food Delivery </p>
+              <i class="bi bi-scooter ms-3"></i>
+              </div>
+            </div>
+            <div class="py-3">
+              <h1 id="deliveryTitle" style="color:red; line-height: 1.3;">Get Delivered  While it's Still Hot</h1>
+            </div>
+            <div>
+              <p id="deliveryDescription">
+                Fresh coffee and delicious meals delivered quickly while they are still warm.
+              </p>
+            </div>
+            <div>
+              <a href="#" class="btn-primary-red mt-4 d-inline-block" style="background-color:black">
+              Get Started Now
+            </a>
+            </div>
+            <img id="deliveryImage" class="coffee" src="./food images/coffee.png" alt="Coffee">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!--All foodes Section-->
+    <section id="allFoods" class=" py-5 mt-4">
+      <center class="py-4">
+        <p class="dancing-script-all_Foods_para">All Food Items</p>
+        <h1 style="color:red" class="all_foods_h1">Amazing Food Service <br>With Delicacy</h1>
+      </center>
+      <div class="all_foods_btn d-flex justify-content-center py-4 gap-3">
+          <button class="btn btn-danger" type="button">All Categories</button>
+          <button class="btn btn-danger" type="button" style="background-color:rgb(255, 218, 215); color:black; border: none;">Pizza</button>
+          <button class="btn btn-danger" type="button" style="background-color:rgb(255, 218, 215); color:black; border: none;">Burger</button>
+          <button class="btn btn-danger" type="button" style="background-color:rgb(255, 218, 215); color:black; border: none;">Ice Cream</button>
+          <button class="btn btn-danger" type="button" style="background-color:rgb(255, 218, 215); color:black; border: none;">Drinks</button>
+          <button class="btn btn-danger" type="button" style="background-color:rgb(255, 218, 215); color:black; border: none;">Lunch</button>
+          <button class="btn btn-danger" type="button" style="background-color:rgb(255, 218, 215); color:black; border: none;">Breakfast</button>
+          <button class="btn btn-danger" type="button" style="background-color:rgb(255, 218, 215); color:black; border: none;">Diner</button>
+        </div>
+        <label class="food-category-select-label" for="foodCategorySelect">Choose a category</label>
+        <select class="food-category-select" id="foodCategorySelect">
+          <option>All Categories</option>
+          <option>Pizza</option>
+          <option>Burger</option>
+          <option>Ice Cream</option>
+          <option>Drinks</option>
+          <option>Lunch</option>
+          <option>Breakfast</option>
+          <option>Diner</option>
+        </select>
+
+<div class="container-sm p-5">
+  
+  <div class="row g-4 mt-4 mx-auto" style="max-width: 1200px;">
+    
+    <!-- Item 1: Chicken Pizza -->
+    <div class="col-lg-3 col-md-6 col-12 mb-5" data-category="pizza">
+      <div class="position-relative h-100 bg-white d-flex flex-column" style="border: 1px solid #eaeaea; border-radius: 12px; padding: 60px 20px 20px 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+        
+        <div class="position-absolute top-0 start-50 translate-middle">
+          <img src="./food images/1.png" alt="Chicken Pizza" class="rounded-circle shadow-sm" style="width: 110px; height: 110px; object-fit: cover; background: white; padding: 4px;">
+        </div>
+
+        <div class="stars mb-1 text-start" style="color: #ff1a55; font-size: 0.9rem;">★★★★★</div>
+        <h5 class="fw-bold text-dark text-start mb-2" style="font-family: 'Playfair Display', serif;">Chicken Pizza</h5>
+        <p class="text-muted small text-start mb-4" style="font-family: 'Playfair Display', serif; line-height: 1.5; font-size: 0.8rem;">
+          Oven-baked, cheesy and full of flavour.
+        </p>
+
+        <div class="d-flex justify-content-between align-items-center mt-auto">
+          <span class="fw-bold text-dark" style="font-size: 1.1rem;">$10.23</span>
+          <div class="d-flex gap-2">
+            <!-- Active/Pink Heart Button -->
+            <button class="btn btn-sm d-flex justify-content-center align-items-center p-0 shadow-sm" style="width: 32px; height: 32px; background-color: #ff1a55; color: white; border: none; border-radius: 6px;">
+              <i class="bi bi-heart"></i>
+            </button>
+            <button class="btn btn-sm d-flex justify-content-center align-items-center p-0" style="width: 32px; height: 32px; background-color: #2b2b2b; color: white; border: none; border-radius: 6px;">
+              <i class="bi bi-share-fill"></i>
+            </button>
+            <button class="btn btn-sm d-flex justify-content-center align-items-center p-0" style="width: 32px; height: 32px; background-color: #2b2b2b; color: white; border: none; border-radius: 6px;">
+              <i class="bi bi-cart-plus"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Item 2: Classic Burger -->
+    <div class="col-lg-3 col-md-6 col-12 mb-5" data-category="burger">
+      <div class="position-relative h-100 bg-white d-flex flex-column" style="border: 1px solid #eaeaea; border-radius: 12px; padding: 60px 20px 20px 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+        
+        <div class="position-absolute top-0 start-50 translate-middle">
+          <img src="./food images/pngkey.com-food-png-52417.png" alt="Classic Burger" class="rounded-circle shadow-sm" style="width: 110px; height: 110px; object-fit: cover; background: white; padding: 4px;">
+        </div>
+
+        <div class="stars mb-1 text-start" style="color: #ff1a55; font-size: 0.9rem;">★★★★★</div>
+        <h5 class="fw-bold text-dark text-start mb-2" style="font-family: 'Playfair Display', serif;">Classic Burger</h5>
+        <p class="text-muted small text-start mb-4" style="font-family: 'Playfair Display', serif; line-height: 1.5; font-size: 0.8rem;">
+          A juicy burger with crisp vegetables and sauce.
+        </p>
+
+        <div class="d-flex justify-content-between align-items-center mt-auto">
+          <span class="fw-bold text-dark" style="font-size: 1.1rem;">$8.50</span>
+          <div class="d-flex gap-2">
+            <button class="btn btn-sm d-flex justify-content-center align-items-center p-0" style="width: 32px; height: 32px; background-color: #2b2b2b; color: white; border: none; border-radius: 6px;">
+              <i class="bi bi-heart"></i>
+            </button>
+            <button class="btn btn-sm d-flex justify-content-center align-items-center p-0" style="width: 32px; height: 32px; background-color: #2b2b2b; color: white; border: none; border-radius: 6px;">
+              <i class="bi bi-share-fill"></i>
+            </button>
+            <button class="btn btn-sm d-flex justify-content-center align-items-center p-0" style="width: 32px; height: 32px; background-color: #2b2b2b; color: white; border: none; border-radius: 6px;">
+              <i class="bi bi-cart-plus"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Item 3: Strawberry Ice Cream -->
+    <div class="col-lg-3 col-md-6 col-12 mb-5" data-category="ice cream">
+      <div class="position-relative h-100 bg-white d-flex flex-column" style="border: 1px solid #eaeaea; border-radius: 12px; padding: 60px 20px 20px 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+        
+        <div class="position-absolute top-0 start-50 translate-middle">
+          <img src="./food images/wmremove-transformed.png" alt="Strawberry Ice Cream" class="rounded-circle shadow-sm" style="width: 110px; height: 110px; object-fit: cover; background: white; padding: 4px;">
+        </div>
+
+        <div class="stars mb-1 text-start" style="color: #ff1a55; font-size: 0.9rem;">★★★★☆</div>
+        <h5 class="fw-bold text-dark text-start mb-2" style="font-family: 'Playfair Display', serif;">Strawberry Ice Cream</h5>
+        <p class="text-muted small text-start mb-4" style="font-family: 'Playfair Display', serif; line-height: 1.5; font-size: 0.8rem;">
+          Smooth, creamy and topped with fresh flavour.
+        </p>
+
+        <div class="d-flex justify-content-between align-items-center mt-auto">
+          <span class="fw-bold text-dark" style="font-size: 1.1rem;">$4.25</span>
+          <div class="d-flex gap-2">
+            <button class="btn btn-sm d-flex justify-content-center align-items-center p-0" style="width: 32px; height: 32px; background-color: #2b2b2b; color: white; border: none; border-radius: 6px;">
+              <i class="bi bi-heart"></i>
+            </button>
+            <button class="btn btn-sm d-flex justify-content-center align-items-center p-0" style="width: 32px; height: 32px; background-color: #2b2b2b; color: white; border: none; border-radius: 6px;">
+              <i class="bi bi-share-fill"></i>
+            </button>
+            <button class="btn btn-sm d-flex justify-content-center align-items-center p-0" style="width: 32px; height: 32px; background-color: #2b2b2b; color: white; border: none; border-radius: 6px;">
+              <i class="bi bi-cart-plus"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Item 4: Fresh Fruit Drink -->
+    <div class="col-lg-3 col-md-6 col-12 mb-5" data-category="drinks">
+      <div class="position-relative h-100 bg-white d-flex flex-column" style="border: 1px solid #eaeaea; border-radius: 12px; padding: 60px 20px 20px 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+        
+        <div class="position-absolute top-0 start-50 translate-middle">
+          <img src="./food images/coffee.png" alt="Fresh Fruit Drink" class="rounded-circle shadow-sm" style="width: 110px; height: 110px; object-fit: cover; background: white; padding: 4px;">
+        </div>
+
+        <div class="stars mb-1 text-start" style="color: #ff1a55; font-size: 0.9rem;">★★★★★</div>
+        <h5 class="fw-bold text-dark text-start mb-2" style="font-family: 'Playfair Display', serif;">Fresh Fruit Drink</h5>
+        <p class="text-muted small text-start mb-4" style="font-family: 'Playfair Display', serif; line-height: 1.5; font-size: 0.8rem;">
+          A cool, refreshing drink made to order.
+        </p>
+
+        <div class="d-flex justify-content-between align-items-center mt-auto">
+          <span class="fw-bold text-dark" style="font-size: 1.1rem;">$3.75</span>
+          <div class="d-flex gap-2">
+            <button class="btn btn-sm d-flex justify-content-center align-items-center p-0" style="width: 32px; height: 32px; background-color: #2b2b2b; color: white; border: none; border-radius: 6px;">
+              <i class="bi bi-heart"></i>
+            </button>
+            <button class="btn btn-sm d-flex justify-content-center align-items-center p-0" style="width: 32px; height: 32px; background-color: #2b2b2b; color: white; border: none; border-radius: 6px;">
+              <i class="bi bi-share-fill"></i>
+            </button>
+            <button class="btn btn-sm d-flex justify-content-center align-items-center p-0" style="width: 32px; height: 32px; background-color: #2b2b2b; color: white; border: none; border-radius: 6px;">
+              <i class="bi bi-cart-plus"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Item 5: Hot Chicken Lunch -->
+    <div class="col-lg-3 col-md-6 col-12 mb-5" data-category="lunch">
+      <div class="position-relative h-100 bg-white d-flex flex-column" style="border: 1px solid #eaeaea; border-radius: 12px; padding: 60px 20px 20px 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+        
+        <div class="position-absolute top-0 start-50 translate-middle">
+          <img src="./food images/1.png" alt="Hot Chicken Lunch" class="rounded-circle shadow-sm" style="width: 110px; height: 110px; object-fit: cover; background: white; padding: 4px;">
+        </div>
+
+        <div class="stars mb-1 text-start" style="color: #ff1a55; font-size: 0.9rem;">★★★★★</div>
+        <h5 class="fw-bold text-dark text-start mb-2" style="font-family: 'Playfair Display', serif;">Hot Chicken Lunch</h5>
+        <p class="text-muted small text-start mb-4" style="font-family: 'Playfair Display', serif; line-height: 1.5; font-size: 0.8rem;">
+          A filling lunch with crispy chicken and salad.
+        </p>
+
+        <div class="d-flex justify-content-between align-items-center mt-auto">
+          <span class="fw-bold text-dark" style="font-size: 1.1rem;">$7.20</span>
+          <div class="d-flex gap-2">
+            <button class="btn btn-sm d-flex justify-content-center align-items-center p-0" style="width: 32px; height: 32px; background-color: #2b2b2b; color: white; border: none; border-radius: 6px;">
+              <i class="bi bi-heart"></i>
+            </button>
+            <button class="btn btn-sm d-flex justify-content-center align-items-center p-0" style="width: 32px; height: 32px; background-color: #2b2b2b; color: white; border: none; border-radius: 6px;">
+              <i class="bi bi-share-fill"></i>
+            </button>
+            <button class="btn btn-sm d-flex justify-content-center align-items-center p-0" style="width: 32px; height: 32px; background-color: #2b2b2b; color: white; border: none; border-radius: 6px;">
+              <i class="bi bi-cart-plus"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Item 6: Morning Breakfast -->
+     <div class="col-lg-3 col-md-6 col-12 mb-5" data-category="breakfast">
+      <div class="position-relative h-100 bg-white d-flex flex-column" style="border: 1px solid #eaeaea; border-radius: 12px; padding: 60px 20px 20px 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+        
+        <div class="position-absolute top-0 start-50 translate-middle">
+          <img src="./food images/2.png" alt="Morning Breakfast" class="rounded-circle shadow-sm" style="width: 110px; height: 110px; object-fit: cover; background: white; padding: 4px;">
+        </div>
+
+        <div class="stars mb-1 text-start" style="color: #ff1a55; font-size: 0.9rem;">★★★★☆</div>
+        <h5 class="fw-bold text-dark text-start mb-2" style="font-family: 'Playfair Display', serif;">Morning Breakfast</h5>
+        <p class="text-muted small text-start mb-4" style="font-family: 'Playfair Display', serif; line-height: 1.5; font-size: 0.8rem;">
+          A balanced breakfast to start your day well.
+        </p>
+
+        <div class="d-flex justify-content-between align-items-center mt-auto">
+          <span class="fw-bold text-dark" style="font-size: 1.1rem;">$6.40</span>
+          <div class="d-flex gap-2">
+            <button class="btn btn-sm d-flex justify-content-center align-items-center p-0" style="width: 32px; height: 32px; background-color: #2b2b2b; color: white; border: none; border-radius: 6px;">
+              <i class="bi bi-heart"></i>
+            </button>
+            <button class="btn btn-sm d-flex justify-content-center align-items-center p-0" style="width: 32px; height: 32px; background-color: #2b2b2b; color: white; border: none; border-radius: 6px;">
+              <i class="bi bi-share-fill"></i>
+            </button>
+            <button class="btn btn-sm d-flex justify-content-center align-items-center p-0" style="width: 32px; height: 32px; background-color: #2b2b2b; color: white; border: none; border-radius: 6px;">
+              <i class="bi bi-cart-plus"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-12 mb-5" data-category="breakfast">
+      <div class="position-relative h-100 bg-white d-flex flex-column" style="border: 1px solid #eaeaea; border-radius: 12px; padding: 60px 20px 20px 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+        
+        <div class="position-absolute top-0 start-50 translate-middle">
+          <img src="./food images/2.png" alt="Morning Breakfast" class="rounded-circle shadow-sm" style="width: 110px; height: 110px; object-fit: cover; background: white; padding: 4px;">
+        </div>
+
+        <div class="stars mb-1 text-start" style="color: #ff1a55; font-size: 0.9rem;">★★★★☆</div>
+        <h5 class="fw-bold text-dark text-start mb-2" style="font-family: 'Playfair Display', serif;">Morning Breakfast</h5>
+        <p class="text-muted small text-start mb-4" style="font-family: 'Playfair Display', serif; line-height: 1.5; font-size: 0.8rem;">
+          A balanced breakfast to start your day well.
+        </p>
+
+        <div class="d-flex justify-content-between align-items-center mt-auto">
+          <span class="fw-bold text-dark" style="font-size: 1.1rem;">$6.40</span>
+          <div class="d-flex gap-2">
+            <button class="btn btn-sm d-flex justify-content-center align-items-center p-0" style="width: 32px; height: 32px; background-color: #2b2b2b; color: white; border: none; border-radius: 6px;">
+              <i class="bi bi-heart"></i>
+            </button>
+            <button class="btn btn-sm d-flex justify-content-center align-items-center p-0" style="width: 32px; height: 32px; background-color: #2b2b2b; color: white; border: none; border-radius: 6px;">
+              <i class="bi bi-share-fill"></i>
+            </button>
+            <button class="btn btn-sm d-flex justify-content-center align-items-center p-0" style="width: 32px; height: 32px; background-color: #2b2b2b; color: white; border: none; border-radius: 6px;">
+              <i class="bi bi-cart-plus"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Item 7: Dinner Special -->
+    <div class="col-lg-3 col-md-6 col-12 mb-5" data-category="diner">
+      <div class="position-relative h-100 bg-white d-flex flex-column" style="border: 1px solid #eaeaea; border-radius: 12px; padding: 60px 20px 20px 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+        
+        <div class="position-absolute top-0 start-50 translate-middle">
+          <img src="./food images/3.png" alt="Dinner Special" class="rounded-circle shadow-sm" style="width: 110px; height: 110px; object-fit: cover; background: white; padding: 4px;">
+        </div>
+
+        <div class="stars mb-1 text-start" style="color: #ff1a55; font-size: 0.9rem;">★★★★★</div>
+        <h5 class="fw-bold text-dark text-start mb-2" style="font-family: 'Playfair Display', serif;">Dinner Special</h5>
+        <p class="text-muted small text-start mb-4" style="font-family: 'Playfair Display', serif; line-height: 1.5; font-size: 0.8rem;">
+          A generous dinner packed with bold flavours.
+        </p>
+
+        <div class="d-flex justify-content-between align-items-center mt-auto">
+          <span class="fw-bold text-dark" style="font-size: 1.1rem;">$12.80</span>
+          <div class="d-flex gap-2">
+            <button class="btn btn-sm d-flex justify-content-center align-items-center p-0" style="width: 32px; height: 32px; background-color: #2b2b2b; color: white; border: none; border-radius: 6px;">
+              <i class="bi bi-heart"></i>
+            </button>
+            <button class="btn btn-sm d-flex justify-content-center align-items-center p-0" style="width: 32px; height: 32px; background-color: #2b2b2b; color: white; border: none; border-radius: 6px;">
+              <i class="bi bi-share-fill"></i>
+            </button>
+            <button class="btn btn-sm d-flex justify-content-center align-items-center p-0" style="width: 32px; height: 32px; background-color: #2b2b2b; color: white; border: none; border-radius: 6px;">
+              <i class="bi bi-cart-plus"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  
+  <div class="d-flex justify-content-center mt-3">
+    <button class="btn-primary-red px-4 py-2" type="button" style="border-radius: 8px; font-weight: 500;">View All Items</button>
+  </div>
+</div>
+    </section>
+    <section class="py-5 mt-4" style="background-color: rgb(31, 30, 35); overflow: hidden;">
+  <div class="container-xl py-5">
+    <div class="row align-items-center g-5">
+
+      <!-- Left Content -->
+      <div class="col-lg-6 order-2 order-lg-1">
+        <div class="pe-lg-5">
+          <p class="text-white-50 mb-3" style="font-size: 0.95rem;">Special Kombo Pack</p>
+          
+          <h1 class="fw-bold mb-4 text-uppercase" style="color: #ff1a55; font-family: 'Playfair Display', serif; line-height: 1.2;">
+            We Make The Best* <br> Burger In Your Town
+          </h1>
+          
+          <p class="text-light mb-5" style="line-height: 1.7; font-size: 0.95rem; opacity: 0.85;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore magnam, animi unde, optio assumenda est neque quam perferendis totam itaque architecto quas deserunt numquam culpa autem ad error voluptatum. Placeat.
+          </p>
+          
+          <!-- Action Button & Pricing Row -->
+          <div class="d-flex flex-wrap align-items-center gap-4">
+            <button class="btn px-4 py-2 fw-semibold shadow-sm" style="background-color: #10b981; color: white; border-radius: 6px; border: none;">
+              Order Now
+            </button>
+            <div class="d-flex align-items-center gap-3">
+              <h2 class="mb-0 fw-bold" style="color: #ff1a55;">$46.99</h2>
+              <h4 class="mb-0 text-white-50 text-decoration-line-through" style="margin-top: 25px;">$59.99</h4>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+      <!-- Right Image -->
+      <div class="col-lg-6 order-1 order-lg-2 text-center text-lg-end">
+        <img src="./food images/pngkey.com-food-png-52417.png" alt="Special Combo Burger" class="img-fluid" style="max-height: 450px; object-fit: contain; position: relative; top:40px;">
+      </div>
+
+    </div>
+  </div>
+</section>
+    <section class="mobile-cont py-5 mt-4">
+      <div class="promo-banner shadow-sm">
+        <div class="row align-items-center">
+            
+            <!-- Left Content Column -->
+            <div class="col-md-6 col-lg-5 position-relative z-3">
+                <h1 class="promo-title">Get The Foodies App</h1>
+                <p class="promo-subtitle">
+                    We will send you a link,open on your phone to Download the app
+                </p>
+
+                <form onsubmit="event.preventDefault(); alert('Link Sent!');">
+                    <div class="email-form-wrapper">
+                        <input type="email" id="appEmail" class="email-input" placeholder="example@gmail.com" required>
+                        <button class="search-btn" id="searchBtn">
+              Share App Link</button>
+                    </div>
+                </form>
+
+                <div class="store-buttons">
+                    <a href="#" class="store-btn">
+                       <i class="bi bi-apple"></i>
+                        <div class="store-text-wrapper">
+                            <span class="store-text-small">Download on the</span>
+                            <span class="store-text-large">App Store</span>
+                        </div>
+                    </a>
+                    <a href="#" class="store-btn">
+                        <i class="bi bi-google-play"></i>
+                        <div class="store-text-wrapper">
+                            <span class="store-text-small">GET IT ON</span>
+                            <span class="store-text-large">Google Play</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-7 d-none d-md-block position-relative">
+                <div class="mockups-wrapper">
+                    
+                    <!-- Background Food Dishes -->
+                    <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&q=80" alt="Large Salad Plate" class="floating-elem food-salad-bg">
+                    <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?w=200&q=80" alt="Small Salad dish" class="floating-elem food-scatter-1">
+                    
+
+                    <!-- Phone 1 (Straight) -->
+                    <div class="phone-frame phone-left">
+                        <div class="phone-notch"></div>
+                        <div class="ui-left">
+                            <div class="ui-profile">
+                                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&q=80" alt="User">
+                                <span>Good Morning! Anup</span>
+                            </div>
+                            <div class="ui-menu-item active"><i class="fa-solid fa-utensils"></i> Food Manager</div>
+                            <div class="ui-menu-item"><i class="fa-solid fa-snowflake"></i> Refrigerators</div>
+                            <div class="ui-menu-item"><i class="fa-solid fa-book-open"></i> My Recipe</div>
+                            <div class="ui-menu-item"><i class="fa-solid fa-bookmark"></i> Saved</div>
+                            <div class="ui-menu-item"><i class="fa-solid fa-user"></i> My Profile</div>
+                            <div class="ui-menu-item"><i class="fa-solid fa-gear"></i> Settings</div>
+                            <div class="ui-menu-item"><i class="fa-solid fa-info-circle"></i> About App</div>
+                        </div>
+                    </div>
+
+                    <!-- Phone 2 (Tilted) -->
+                    <div class="phone-frame phone-right">
+                        <div class="phone-notch"></div>
+                        <div class="ui-right">
+                            <div class="ui-header">
+                                <h6>Sweet</h6>
+                                <i class="fa-solid fa-sliders" style="font-size: 0.6rem; color: #888;"></i>
+                            </div>
+                            <div class="ui-tabs">
+                                <div class="ui-tab active">All</div>
+                                <div class="ui-tab">Chinese</div>
+                                <div class="ui-tab">Bangla</div>
+                            </div>
+
+                            <div class="ui-card">
+                                <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=100&q=80" alt="Food">
+                                <div class="ui-card-info">
+                                    <p class="ui-card-title">Sweet French Macaron</p>
+                                    <p class="ui-card-price">$12.00 <span style="color:#aaa; font-size:0.45rem; text-decoration:line-through;">$15.00</span></p>
+                                </div>
+                                <i class="fa-solid fa-share-nodes" style="color:#888;"></i>
+                            </div>
+
+                            <div class="ui-card">
+                                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=100&q=80" alt="Food">
+                                <div class="ui-card-info">
+                                    <p class="ui-card-title">Chicken with spicy...</p>
+                                    <p class="ui-card-price">$18.00</p>
+                                </div>
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+
+                            <div class="ui-card">
+                                <img src="https://images.unsplash.com/photo-1527477396000-e27163b481c2?w=100&q=80" alt="Food">
+                                <div class="ui-card-info">
+                                    <p class="ui-card-title">Crispy Buffalo Wings</p>
+                                    <p class="ui-card-price">$15.00</p>
+                                </div>
+                                <i class="fa-regular fa-heart" style="color:#888;"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    </section>
+    <main class="page-shell container-fluid">
+      <!-- Full Bleed Breakout Section -->
+<section class="position-relative my-5" style="width: 100vw; max-width: 100vw; margin-left: calc(50% - 50vw);">
+  <div class="row g-0 m-0 w-100 position-relative">
+    
+    <!-- Left Dark Section -->
+    <div class="col-lg-7 py-5" style="background-color: #1a1a1f; padding-left: 8%; padding-right: 5%; min-height: 600px;">
+      <div class="d-flex flex-column justify-content-center h-100">
+        <p class="text-white-50 fst-italic mb-2" style="font-family: 'Playfair Display', serif;">Customer <br> Feedback</p>
+        <h1 class="fw-bold mb-4 text-uppercase" style="color: #ff1a55; font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3.5rem); line-height: 1.1;">
+          What Our Client Say<br><span style="font-size: clamp(2.5rem, 5vw, 4rem);">?</span>
+        </h1>
+        <p class="text-light mb-5" style="max-width: 500px; line-height: 1.7; opacity: 0.85; font-size: 0.95rem;">
+          Some people think that cooking with olive oil is old-fashioned, but it is still wonderful and full of flavour. A good meal is the kind of memory you carry with you.
+        </p>
+        
+        <div class="d-flex flex-wrap gap-4 gap-md-5">
+          <div>
+            <h3 class="fw-bold mb-1" style="color: #ff1a55;">1k+</h3>
+            <p class="text-white-50 small fw-bold text-uppercase mb-0" style="letter-spacing: 1px; font-size: 0.75rem;">Happy Client</p>
+          </div>
+          <div>
+            <h3 class="fw-bold mb-1" style="color: #ff1a55;">16+</h3>
+            <p class="text-white-50 small fw-bold text-uppercase mb-0" style="letter-spacing: 1px; font-size: 0.75rem;">Award Winning</p>
+          </div>
+          <div>
+            <h3 class="fw-bold mb-1" style="color: #ff1a55;">68+</h3>
+            <p class="text-white-50 small fw-bold text-uppercase mb-0" style="letter-spacing: 1px; font-size: 0.75rem;">Food Menu</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Light Section -->
+    <div class="col-lg-5 bg-white d-flex justify-content-center align-items-center py-5" style="min-height: 600px;">
+      <img src="./food images/1.png" alt="Food Plate" class="img-fluid rounded-circle shadow-sm" style="max-width: 450px; width: 80%; z-index: 1;">
+    </div>
+
+    <!-- Arrow Controls (Centered perfectly on the border between the dark/light columns) -->
+    <div class="position-absolute d-none d-lg-flex justify-content-center gap-4" style="bottom: 50px; left: 58.333333%; transform: translateX(-50%); z-index: 10;">
+      <button class="review-prev-btn btn d-flex justify-content-center align-items-center p-0 shadow-sm" style="width: 40px; height: 40px; background-color: #ff1a55; color: white; border: none; border-radius: 4px;">
+        <i class="bi bi-chevron-left"></i>
+      </button>
+      <button class="review-next-btn btn d-flex justify-content-center align-items-center p-0 shadow-sm" style="width: 40px; height: 40px; background-color: #2b2b2b; color: white; border: none; border-radius: 4px;">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+    
+  </div>
+
+  <!-- Floating Testimonial Card (Desktop - Centered perfectly on the border) -->
+  <div class="testimonial-card position-absolute d-none d-lg-block bg-white shadow-lg p-4" style="top: 50%; left: 58.333333%; transform: translate(-50%, -50%); z-index: 10; width: 480px; border-radius: 12px;">
+    <div class="d-flex justify-content-between align-items-start mb-3">
+      <div class="testimonial-avatar d-flex justify-content-center align-items-center fw-bold shadow-sm" style="width: 55px; height: 55px; background-color: #b58d8d; color: white; border-radius: 8px; font-size: 1.2rem;">
+        AG
+      </div>
+      <span style="font-size: 4rem; color: #ff1a55; line-height: 0.5; font-family: serif; font-weight: bold; padding-top: 20px;">”</span>
+    </div>
+    <p class="testimonial-copy text-muted mb-4" style="line-height: 1.7; font-size: 1rem;">
+      Food is great and the staff were kind and welcoming. The pleasant atmosphere made our dinner a wonderful experience.
+    </p>
+    <div class="d-flex justify-content-between align-items-end">
+      <div>
+        <h5 class="testimonial-name fw-bold mb-0" style="color: #ff1a55; font-family: 'Playfair Display', serif;">Ajoy Gonsalves</h5>
+        <p class="testimonial-role text-muted small mb-0">Food Blogger</p>
+      </div>
+      <div class="testimonial-stars stars" style="color: #ff1a55; font-size: 1.1rem; letter-spacing: 2px;">★★★★★</div>
+    </div>
+  </div>
+  
+  <!-- Mobile Testimonial Card (Appears stacked on smaller screens) -->
+  <div class="testimonial-card d-block d-lg-none bg-white p-4 mx-auto w-100 shadow-sm border-top">
+    <div class="d-flex justify-content-between align-items-start mb-3">
+      <div class="testimonial-avatar d-flex justify-content-center align-items-center fw-bold shadow-sm" style="width: 55px; height: 55px; background-color: #b58d8d; color: white; border-radius: 8px; font-size: 1.2rem;">
+        AG
+      </div>
+      <span style="font-size: 4rem; color: #ff1a55; line-height: 0.5; font-family: serif; font-weight: bold; padding-top: 20px;">”</span>
+    </div>
+    <p class="testimonial-copy text-muted mb-4" style="line-height: 1.7; font-size: 0.95rem;">
+      Food is great and the staff were kind and welcoming. The pleasant atmosphere made our dinner a wonderful experience.
+    </p>
+    <div class="d-flex justify-content-between align-items-end mb-4">
+      <div>
+        <h5 class="testimonial-name fw-bold mb-0" style="color: #ff1a55; font-family: 'Playfair Display', serif;">Ajoy Gonsalves</h5>
+        <p class="testimonial-role text-muted small mb-0">Food Blogger</p>
+      </div>
+      <div class="testimonial-stars stars" style="color: #ff1a55; font-size: 1.1rem; letter-spacing: 2px;">★★★★★</div>
+    </div>
+    <!-- Mobile Arrow Controls -->
+    <div class="d-flex gap-3">
+      <button class="review-prev-btn btn d-flex justify-content-center align-items-center p-0 shadow-sm" style="width: 40px; height: 40px; background-color: #ff1a55; color: white; border: none; border-radius: 4px;">
+        <i class="bi bi-chevron-left"></i>
+      </button>
+      <button class="review-next-btn btn d-flex justify-content-center align-items-center p-0 shadow-sm" style="width: 40px; height: 40px; background-color: #2b2b2b; color: white; border: none; border-radius: 4px;">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </div>
+</section>
+    </main>
+    <!--marqee section-->
+    <!-- Seamless Marquee Section -->
+<section>
+  <div class="maqreeContainer container-fluid py-5 mb-5">
+    <div class="marquee-wrapper">
+      <!-- Track 1 -->
+      <div class="marquee-track">
+        <img src="./brand Images/45_food.jpg" alt="">
+        <img src="./brand Images/5528439.jpg" alt="">
+        <img src="./brand Images/7817792.jpg" alt="">
+        <img src="./brand Images/Activia-Logo-tumb.jpg" alt="">
+        <img src="./brand Images/Amul-Logo-tumb.jpg" alt="">
+        <img src="./brand Images/Ben-and-Jerrys-Logo-tumb.jpg" alt="">
+        <img src="./brand Images/Beyond-Meat-Logo-tumb.png" alt="">
+        <img src="./brand Images/Butterfinger-Logo-tumb.png" alt="">
+        <img src="./brand Images/Chef-Boyardee-Logo-tumb.jpg" alt="">
+      </div>
+      <!-- Track 2 (Exact Duplicate for the seamless loop effect) -->
+      <div class="marquee-track" aria-hidden="true">
+        <img src="./brand Images/45_food.jpg" alt="">
+        <img src="./brand Images/5528439.jpg" alt="">
+        <img src="./brand Images/7817792.jpg" alt="">
+        <img src="./brand Images/Activia-Logo-tumb.jpg" alt="">
+        <img src="./brand Images/Amul-Logo-tumb.jpg" alt="">
+        <img src="./brand Images/Ben-and-Jerrys-Logo-tumb.jpg" alt="">
+        <img src="./brand Images/Beyond-Meat-Logo-tumb.png" alt="">
+        <img src="./brand Images/Butterfinger-Logo-tumb.png" alt="">
+        <img src="./brand Images/Chef-Boyardee-Logo-tumb.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <footer class="site-footer" Style="background-color: rgb(44, 51, 46); border:none;">
+      <div class="mt-4">
+        <div class="container-xl footer-newsletter">
+          <h3>SUBSCRIBE NEWS LATTER</h3>
+          <form class="newsletter-form" action="#" method="post">
+            <input type="email" placeholder="example@gmail.com" aria-label="Email address" />
+            <button class="search-btn" style="border-radius:8.5px;" id="searchBtn">
+              Share App link
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="container-xl footer-main" style="background-color:rgb(44, 51, 46); ">
+        <div class="footer-grid">
+          <div class="footer-column about-column">
+            
+            <h4 class="footer-logo">Foodies</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              dolore quisquam nostrum voluptatibus.
+            </p>
+            <div class="d-flex gap-2">
+              <i class="bi bi-clock" style="font-size:50px; color:red;"></i>
+              <div><h6>Opening Hours</h6>
+              <p>Mon-Sat(8:00-6:00) <br> Sunday-Closed</p>
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="footer-column">
+            <h5 class="footer-heading">Contact Us</h5>
+            <ul class="footer-list">
+              <li><bold style="font-size: 20px; color:white;">Address:</bold> 123 Food Street.</li>
+              <li><bold style="font-size: 20px; color:white;">Email:</bold> foodies@gmail.com</li>
+              <li><bold style="font-size: 20px; color:white;">Mobile:</bold> +91 98 9800 9800</li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h5 class="footer-heading">Links</h5>
+            <ul class="footer-list footer-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Shop</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h5 class="footer-heading">Recent Blog</h5>
+            <div class="blog-item">
+              <img src="./food images/1.png" alt="Blog 1" />
+              <div>
+                <p>Best Food And Delicious American Breakfast</p>
+                <small>Sep 20, 2024</small>
+              </div>
+            </div>
+            <div class="blog-item">
+              <img src="./food images/3.png" alt="Blog 2" />
+              <div>
+                <p>Best Food And Delicious American Dinner</p>
+                <small>Sep 18, 2024</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <hr style="background-color:rgb(197, 190, 189); width:1000px; height: 2px; border: none;">
+      </div>
+      <div class="footer-bottom" style="background-color: rgb(44, 51, 46); border: none;">
+        <div class="container-xl footer-bottom-inner">
+          <div class="footer-brand">
+            <span style="color:red;">
+            <h4>Foodies</h4>  
+            </span>
+          </div>
+          <div class="footer-meta">
+            <span>Copyright©2026</span>
+          </div>
+
+          <div class="d-flex gap-3 top-bar-social">
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="#" aria-label="Behance"><i class="bi bi-behance"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div class="toast-notification" id="toast">
+      <i class="bi bi-check-circle-fill me-2"></i>
+      <span id="toastMsg">Action successful!</span>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js?v=9"></script>
+  </body>
+</html>
